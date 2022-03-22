@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgroBuddy</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="../HackElite/assets/images/Vector.png" alt="" class="logo-img">
+            AGRO<strong>BUDDY</strong>
+        </div>
+        <button type="button" class="btn-hamburger" data-action="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" data-action="dropdown-toggle">Languages</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Hindi</a>
+                    <a class="dropdown-item" href="#">Lang 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="bg_img">
+        <div class="main_part">
+            <div class="quote">
+                <h3><span>ONE STOP FOR FARMERS</span>
+                </h3>
+                <h4>TO KNOW ABOUT EVERYTHING</h4>
+            </div>
+            <div class="btn_dropdown">
+                <button onclick="myFunction()" class="btn_dropbtn">SELECT SEASON</button>
+                <div id="myDropdown" class="btn_dropdown-content">
+                    <a href="#">SEASON 1</a>
+                    <a href="#">SEASON 2</a>
+                    <a href="#">SEASON 3</a>
+                    <a href="#">SEASON 4</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot_part">
+            <h3><a href="#">Frequently Asked Questions (FAQ)</a></h3>
+            <h3>Contact Us</h3>
+            <h3>Helpline : +91 9998887770</h3>
+            <h3>Technical Support : +91 999887770</h3>
+
+        </div>
+        <div class="item_f">
+            <div class="foot_part item_f_part">
+                <img src="../HackElite/assets/images/national-health-authority.png" alt="#">
+            </div>
+            <div class="foot_part item_f_part">
+                <h3>©copyright</h3>
+                <h3><a href="">Terms and conditions</a></h3>
+                <h3><a href=""> Privacy Policy</a></h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
