@@ -3,6 +3,79 @@ body {
     margin: 0;
 }
 
+#google_element select {
+    background: #363d4e;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 19px
+}
+
+
+/*google translate link | logo */
+
+.goog-logo-link {
+    display: none!important;
+}
+
+.goog-te-gadget {
+    font-size: 0px!important;
+    color: transparent!important;
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: -8px 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .goog-te-gadget .goog-te-combo {
+        margin: 6px 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .goog-te-combo,
+    .goog-te-banner *,
+    .goog-te-ftab *,
+    .goog-te-menu *,
+    .goog-te-menu2 *,
+    .goog-te-balloon * {
+        font-family: sans-serif !important;
+        font-size: 13pt !important;
+    }
+}
+
+
+/* google translate banner-frame */
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-te-combo,
+.goog-te-banner *,
+.goog-te-ftab *,
+.goog-te-menu *,
+.goog-te-menu2 *,
+.goog-te-balloon * {
+    font-family: sans-serif !important;
+    font-size: 11pt !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    top: 0!important;
+}
+
 h1 {
     margin-top: 20px;
 }
@@ -51,7 +124,7 @@ nav {
 nav .logo {
     font-size: 1.25em;
     line-height: 70px;
-    font-weight: bold;
+    /* font-weight; */
     color: #fff;
     font-family: 'Bungee', cursive;
 }
